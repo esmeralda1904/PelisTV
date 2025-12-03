@@ -42,8 +42,9 @@ class Card: Presenter(){
 
         // Square poster look
         card.titleText = video.title
-        // Mostrar la descripción de la película en la tarjeta de inicio
-        card.contentText = video.description
+        // Mostrar el subtítulo y la descripción en la tarjeta de inicio
+        // contentText puede contener varias líneas; primero subtítulo luego descripción
+        card.contentText = "${video.subtitle}\n${video.description}"
         card.setMainImageDimensions(360, 360)
 
         // set main image from resources
