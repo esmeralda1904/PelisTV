@@ -15,7 +15,7 @@ import androidx.leanback.widget.OnItemViewSelectedListener
 class MainFragment: BrowseSupportFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        title="Netflix pirata"
+        title = "HBO Version Temu"
 
         val categories=ArrayObjectAdapter(ListRowPresenter())
 
